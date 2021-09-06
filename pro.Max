@@ -269,7 +269,7 @@ def menu():
     print ' \033[1;90m Active token: \033[1;94m' + tok
     print ' ------------------------------------------ '
     print '\033[1;92m[1] Start Cloning' 
-    print '\033[1;92m[2] Follow Karma'
+    print '\033[1;92m[2] Follow Sultan'
     print '\033[1;92m[3] View token'
     print '\033[1;92m[4] Logout'
     print '\033[1;92m[5] Delete trash files'
@@ -281,7 +281,7 @@ def menu_s():
     if ms == '1':
         auto_crack()
     elif ms == '2':
-        os.system('xdg-open https://facebook.com/meersultan.khoso/')
+        os.system('xdg-open https://m.facebook.com/meersultan.khoso')
     elif ms == '3':
         v_tok()
     elif ms == '4':
