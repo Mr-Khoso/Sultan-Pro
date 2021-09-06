@@ -7,7 +7,6 @@ import os, sys, time, datetime, re, threading, json, random, requests, hashlib, 
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 import binascii, uuid, base64, platform
-from getmac import get_mac_address as gma
 os.system('termux-setup-storage')
 try:
     os.mkdir('/sdcard/output')
